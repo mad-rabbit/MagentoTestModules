@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Prilutskaya_ModuleMenuTest::test" title="Test" module="Prilutskaya_ModuleMenuTest"
+             sortOrder="90" parent="Magento_Backend::system" resource="Prilutskaya_ModuleMenuTest::test" />
+        <add id="Prilutskaya_ModuleMenuTest::test_categories" title="A-categories"
+             module="Prilutskaya_ModuleMenuTest" sortOrder="0" parent="Prilutskaya_ModuleMenuTest::test"
+             action="modulemenutest" resource="Prilutskaya_ModuleMenuTest::test_categories"/>
+    </menu>
+</config>
